@@ -26,7 +26,7 @@ Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/I
 ```
 https://capsule-render.vercel.app/api?
 ```
-![Uploading HOME.gif…]()
+![Alt text](/demo/HOME.gif)
 
 Markdown:
 ```
