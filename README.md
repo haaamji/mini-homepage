@@ -10,11 +10,11 @@
   </a>
 </p>
 
-## Types
-- [wave](#wave)
-- [egg](#egg)
-- [shark](#shark)
-- [slice](#slice)
+## INDEX
+- [HOME](#HOME)
+- [PHOTO](#PHOTO)
+- [DIARY](#DIARY)
+- [VISITOR](#VISITOR)
 - [rect](#rect)
 - [rounded](#rounded)
 - [cylinder](#cylinder)
@@ -22,11 +22,56 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# DEMO
+# HOME
 ```
 https://capsule-render.vercel.app/api?
 ```
 ![Alt text](/demo/HOME.gif)
+
+Markdown:
+```
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+```
+
+HTML:
+```
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
+```
+# PHOTO
+```
+https://capsule-render.vercel.app/api?
+```
+![Alt text](/demo/PHOTO.gif)
+
+Markdown:
+```
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+```
+
+HTML:
+```
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
+```
+# DIARY
+```
+https://capsule-render.vercel.app/api?
+```
+![Alt text](/demo/DIARY.gif)
+
+Markdown:
+```
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+```
+
+HTML:
+```
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
+```
+# VISITOR
+```
+https://capsule-render.vercel.app/api?
+```
+![Alt text](/demo/VISITOR.gif)
 
 Markdown:
 ```
