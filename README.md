@@ -15,10 +15,7 @@
 - [PHOTO](#PHOTO)
 - [DIARY](#DIARY)
 - [VISITOR](#VISITOR)
-- [rect](#rect)
-- [rounded](#rounded)
-- [cylinder](#cylinder)
-- [waving](#waving)
+
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
@@ -33,9 +30,15 @@ Markdown:
 ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
 ```
 
-HTML:
+DROP_BAR:
 ```
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
+<ul id="dropdown">
+  <li>파도 타기<span>▾</span></li>
+  <ul id="dropdown_row">
+    <li><a href="https://cafe.naver.com/codeuniv/" target="_blank">코뮤니티로 가기</a></li>
+    <li><a href="https://www.instagram.com/coding_comu/" target="_blank">인스타그램으로 가기</a></li>
+ </ul>
+<ul>
 ```
 # PHOTO
 ```
