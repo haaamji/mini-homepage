@@ -1,0 +1,79 @@
+/* content.css */
+.main_content .content_title{
+    color:#5681a7;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'KOTRA_BOLD-Bold';
+}
+
+.main_content .news_wrapper{
+    flex: 0.6;
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+.main_content .news{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+
+.main_content .newsFrom {
+    padding: 1px 5px;
+    color: #ffffff;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.main_content .news .fromPhoto{
+    background-color: #f57474;
+}
+
+.main_content .news .fromDiary{
+    background-color: #ddc869;
+}
+
+.main_content .news .fromNotice{
+    background-color: #627dd6;
+}
+
+.main_content .updated{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0.3;
+}
+
+.main_content .menus_wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    flex: 0.5;
+    font-size: 14px;
+
+}
+
+.main_content .menus{
+    display: flex;
+    flex: 95px 0 0;
+    justify-content: space-around;
+    margin: 3px 0px;
+    padding: 1px 0px;
+    border-bottom: 1px #A3A3A3 dashed;
+}
+
+.main_content .menus_cnt{
+    font-family: 'NEXON Lv1 Gothic OTF';
+    color: #072996;
+}
+
+.main_content .miniroom{
+    flex: 0.7;
+}
+
+.miniroom img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}

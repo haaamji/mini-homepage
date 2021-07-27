@@ -1,0 +1,75 @@
+/* visitor.css */
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    overflow: auto;
+    font-family: 'NEXON Lv1 Gothic OTF';
+}
+
+.visitor_card{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.visitor_card:last-child{
+    margin-bottom: 0px;
+}
+
+.visitor_title{
+    display: flex;
+    align-items: baseline;
+    padding: 10px 10px;
+    font-size: 13px;
+    background-color: #d6d6d6;
+}
+
+.visitor_name{
+    color: #3450eb;
+}
+
+.visitor_name, .visitor_homepage{
+    cursor: pointer;
+}
+
+.visitor_title > span, i{
+    margin-right: 5px;
+}
+
+.visitor_date{
+    font-size: 11px;
+}
+
+.visitor_content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+.visitor_content .photo{
+    width: 100px;    
+    background-size: contain;
+    border: 2px dashed #616161;
+    border-radius: 5px;
+}
+
+.visitor_content #visitor1{
+    background-image: url('./images/잔디2.jpg');
+}
+
+.visitor_content #visitor2{
+    background-image: url('./images/바다배경.png');
+}
+
+.visitor_content #visitor3{
+    background-image: url('./images/하늘배경.jpg');
+}
+
+.visitor_content .description{
+    padding: 5px 15px;
+    font-size: 13px;
+    align-self: center;
+}
