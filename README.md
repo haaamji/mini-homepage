@@ -22,11 +22,11 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# How to Use
+# DEMO
 ```
 https://capsule-render.vercel.app/api?
 ```
-Just write query parameter end of this url. Like this
+![Alt text](/path/to/img.jpg)
 
 Markdown:
 ```
